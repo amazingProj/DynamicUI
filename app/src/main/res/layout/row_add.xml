@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edit_city"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:inputType="text"
+        android:text="City"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/edit_street"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:paddingLeft="20dp"
+        android:text="street"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edit_number"
+        android:layout_width="7dp"
+        android:layout_height="30dp"
+        android:layout_column="0"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:background="@color/purple_200"
+        android:inputType="number"
+        android:paddingLeft="30dp"
+        android:text="serialize number of building "
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/close_img"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_column="1"
+        android:src="@drawable/ic_close" />
+
+
+</LinearLayout>
